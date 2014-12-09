@@ -26,3 +26,7 @@ Capture user input with `prompt` and use `document.writeln` to print it.
 ```
 
 Use the JavaScript console to try some more. Try putting HTML inside `writeln`.
+
+## LAB
+
+Modify the inline script to print other things using the name entered.
