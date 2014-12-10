@@ -7,6 +7,7 @@
   <title>JavaScript Exercises</title>
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,6 +15,23 @@
 </head>
 
 <body>
+  <div class="well">
+    <form role="form">
+      <div class="form-group">
+        <label for="name">What is your name?</label><br>
+        <input id="name" class="form-control"  type="text">
+      </div>
+      <div class="form-group">
+        <label for="quest">What is your quest?</label><br>
+        <input id="quest" class="form-control"  type="text">
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label><br>
+        <input id="color" class="form-control"  type="text">
+      </div>
+      <input type="submit" class="btn btn-default" value="Tell a story">
+    </form>
+  </div>
   <script src="js/scripts.js"></script>
 </body>
 </html>
