@@ -2,8 +2,14 @@ var App = {
   name:  '',
   quest: '',
   color: '',
-  watchForSubmit: function() {
+  watchForEvents: function() {
+    var form = document.querySelector('form')
     document.querySelector('form').addEventListener('submit', App.handleSubmission);
+    document.querySelector('#story+button').addEventListener('click', function() {
+      form.reset();
+      var story = document.getElementById('story');
+      story.parentElement.classList.add('hidden');
+    });
   },
   handleSubmission: function(e) {
     e = e ? e : window.event;
@@ -18,12 +24,13 @@ var App = {
     App.color = fields['color'].value;
   },
   displayStory: function() {
-    document.writeln('<p>There once was a warrior named ' + App.name + ' ' +
+    var story = document.getElementById('story');
+    story.parentElement.classList.remove('hidden');
+    story.innerHTML = '<p>There once was a warrior named ' + App.name + ' ' +
       'on a mighty quest indeed: ' + App.quest + '. Luckily, ' +
       App.name + ' was wearing lucky socks&mdash;colored ' + App.color + '.' +
-      '</p>'
-    );
+      '</p>';
   }
 }
 
-App.watchForSubmit();
+App.watchForEvents();
