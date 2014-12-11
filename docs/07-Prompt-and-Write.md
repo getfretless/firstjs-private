@@ -1,8 +1,8 @@
 # Inline Javascript
 
-## `alert` and `prompt`
+Let's leave the console behind for a moment and start putting some JavaScript inside our HTML document so it will be run every time the page loads.
 
-Besides `console.log`—which we know not to use in production—we can use `alert` to display something to users.
+Simply place JavaScript code inside a `script` HTML element. `<script>` tags can appear in the `head` or `body` of a page. Unless you know that you must place a script in the head, it is good practice to put scripts just before the end of the body.
 
 ```html
 <!doctype html>
@@ -26,14 +26,14 @@ Besides `console.log`—which we know not to use in production—we can use `ale
 </html>
 ```
 
-Notice that I've escaped the apostrophe character since I used single quotes for my string literal. Personally, I use single quotes for strings unless I feel like avoiding an escape like that.
+Notice that I've escaped the apostrophe character since I used single quotes for my string literal. Personally, I use single quotes for strings more often than not. For what it's worth, that's the preference in [Google's style guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml#Strings).
 
 We can capture something a user types with `prompt`.
 
 ```html
 <body>
   <script>
-    prompt("HI! What's your name?") // Double-quotes this time!
+    prompt("HI! What's your name?"); // Double-quotes this time!
     alert('Hi there! This isn\'t annoying, is it?');
   </script>
 </body>
