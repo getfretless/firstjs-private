@@ -41,4 +41,4 @@ var full_name = first_name + ' ' + last_name;
 console.log(full_name);
 ```
 
-Notice that `' '` is a perfectly valid string, containing just a space. For that matter, `''` is a perfect valid, albeit empty, string.
+Notice that `' '` is a perfectly valid string, containing just a space. For that matter, `''` is a perfectly valid, albeit empty, string.
