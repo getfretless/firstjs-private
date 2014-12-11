@@ -8,7 +8,7 @@ var App = {
   handleSubmission: function(e) {
     e = e ? e : window.event;
     e.preventDefault();
-    var form = e.target;
+    var form = e.currentTarget;
     App.captureValues(form.elements);
     App.displayStory();
   },
