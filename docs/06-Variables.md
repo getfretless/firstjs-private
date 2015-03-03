@@ -3,7 +3,7 @@
 A value, like `"I'm Dave!"` can be stored in a variable, very much like a variable in algebra. This allows us to reuse them and do all sorts of other things with them.
 
 ```js
-var message = 'Welcome to the most exciting page on the Web!'
+var message = 'Welcome to the most exciting page on the Web!';
 alert(message);
 ```
 

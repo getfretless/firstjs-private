@@ -72,3 +72,7 @@ Use the JavaScript console to try some more. Try putting HTML inside `writeln`.
 ## LAB
 
 Modify the inline script to print other things using the name entered.
+
+## LAB
+
+Try to actually print the tags to the page, rather than to have them interpreted as HTML.

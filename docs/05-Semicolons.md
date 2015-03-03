@@ -13,6 +13,6 @@ Semicolons are used to separate one JavaScript statement from the next. Most of 
 alert('Welcome to the page!'); console.log('Success!');
 ```
 
-I suggest that you get in the habit of using a semicolons at the end of every statement. I'll be using them in all examples from here on.
+I suggest that you get in the habit of using semicolons at the end of every statement. I'll be using them in all examples from here on.
 
 So now we can print text in an irritating popup for users to see. We could do more interesting stuff if we could get some input from the users.

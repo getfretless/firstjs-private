@@ -22,7 +22,7 @@ This logs `DaveStrus`. Concatenation just smashes strings together; it doesn't a
 
 ## Vocab time: _literal_
 
-When a use a string value by wrapping it in quotes, that's called a string _literal_. In general, a _literal_ is a value referenced directly, as opposed to being referenced in a variable or something else.
+When you use a string value by wrapping it in quotes, that's called a string _literal_. In general, a _literal_ is a value referenced directly, as opposed to being referenced in a variable or something else.
 
 ```js
 var first_name = 'Dave';

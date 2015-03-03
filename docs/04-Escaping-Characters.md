@@ -4,7 +4,7 @@
 > alert("How many times must I say \"Hello, world\"?")
 ```
 
-Strings can contain pretty much any piece of text imaginable, including unprintable characters, like a character marking the end of a line. Such characters we must escape using the backslash `\`. As you might suspect, that means we also need to escape the backslash character if we want an actual backslash to print. Similarly, when a string is marked enclosed in single quotes, the single quote character (or apostrophe) must be escaped whenever we want one to print. Ditto for double quotes in string wrapped in double quotes.
+Strings can contain pretty much any piece of text imaginable, including unprintable characters, like a character marking the end of a line. Such characters we must escape using the backslash `\`. As you might suspect, that means we also need to escape the backslash character if we want an actual backslash to print. Similarly, when a string is marked enclosed in single quotes, the single quote character (or apostrophe) must be escaped whenever we want one to print. Ditto for double quotes in strings wrapped in double quotes.
 
 Let's try some examples.
 
